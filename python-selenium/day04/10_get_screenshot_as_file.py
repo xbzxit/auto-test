@@ -1,8 +1,8 @@
 # 导包
-import time
-from time import strftime
-from selenium import webdriver
 from time import sleep
+from time import strftime
+
+from selenium import webdriver
 
 # 获取浏览器驱动对象
 driver = webdriver.Firefox()

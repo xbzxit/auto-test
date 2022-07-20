@@ -8,11 +8,10 @@
         3. 输入密码：123456
 """
 
-# 导包
-from selenium import webdriver
 from time import sleep
 
-
+# 导包
+from selenium import webdriver
 # 获取 浏览器驱动对象
 from selenium.webdriver.common.by import By
 

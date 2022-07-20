@@ -1,4 +1,5 @@
 import unittest
+
 from parameterized import parameterized
 
 from day07.po.base.get_driver import GetDriver
@@ -7,13 +8,12 @@ from day07.po.tool.read_json import read_json
 
 
 def get_data():
-
     datas = read_json("calc.json")
 
     # 新建空列表
     arrs = []
     for data in datas.values():
-        arrs .append((data['a'], data['b'], data['expect']))
+        arrs.append((data['a'], data['b'], data['expect']))
     return arrs
 
 

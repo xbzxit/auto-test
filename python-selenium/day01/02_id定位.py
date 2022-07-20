@@ -1,7 +1,7 @@
 # 导包
-from selenium import webdriver
 from time import sleep
-from selenium.webdriver.common.keys import Keys
+
+from selenium import webdriver
 
 # 获取 浏览器对象
 # 如果是Firefox 需要主要驱动与浏览器版本的问题， 谷歌浏览器下没有问题
@@ -12,13 +12,13 @@ driver = webdriver.Firefox()
 url = r"D:\workspace_python\python-selenium\html\注册A.html"
 
 # 使用双反斜杠 进行转义操作
-#url = "D:\\workspace_python\\python-selenium\\html\\注册A.html"
+# url = "D:\\workspace_python\\python-selenium\\html\\注册A.html"
 
 # 使用本地浏览模式 前缀必须添加 file:///
-#url = "file:///D:/workspace_python/python-selenium/html/注册A.html"
+# url = "file:///D:/workspace_python/python-selenium/html/注册A.html"
 
 # 复制浏览器地址
-#url = "D:/workspace_python/python-selenium/html/注册A.html"
+# url = "D:/workspace_python/python-selenium/html/注册A.html"
 driver.get(url)
 
 # 查找 用户名元素

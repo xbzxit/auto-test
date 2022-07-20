@@ -1,6 +1,7 @@
 # 导包
-from selenium import webdriver
 from time import sleep
+
+from selenium import webdriver
 # 获取浏览器驱动对象
 from selenium.webdriver.support.select import Select
 
@@ -12,7 +13,6 @@ driver.implicitly_wait(30)
 # 打开url
 url = "file:///d:/workspace_python/python-selenium/html/注册A.html"
 driver.get(url)
-
 
 """
     目标： 使用Select类实现操作option选项

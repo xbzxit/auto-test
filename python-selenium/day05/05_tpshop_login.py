@@ -5,10 +5,11 @@
         断言：提示信息是，验证码不能为空！
         要求：如果断言出错，截屏保存。
 """
+import time
 # 导包
 import unittest
-import time
 from time import sleep
+
 from selenium import webdriver
 
 

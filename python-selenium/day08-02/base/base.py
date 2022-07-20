@@ -1,4 +1,5 @@
 import time
+
 from selenium.webdriver.support.wait import WebDriverWait
 
 
@@ -8,11 +9,11 @@ class Base:
         self.driver = driver
 
     # 查找元素方法 封装
-    def base_find(self, loc,  timeout=30, poll=0.5):
+    def base_find(self, loc, timeout=30, poll=0.5):
         # 使用显示等待 查找元素
         return WebDriverWait(self.driver,
                              timeout=timeout,
-                             poll_frequency=poll).until(lambda x:x.find_element(*loc))
+                             poll_frequency=poll).until(lambda x: x.find_element(*loc))
 
     # 点击元素 方法封装
     def base_click(self, loc):
@@ -39,6 +40,6 @@ class Base:
     def base_element_is_exist(self, loc):
         try:
             self.base_find(loc, timeout=2)
-            return True # 代表元素存在
+            return True  # 代表元素存在
         except:
-            return False # 代表元素不存在
+            return False  # 代表元素不存在

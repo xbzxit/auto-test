@@ -15,9 +15,9 @@ class Test02(unittest.TestCase):
         print("__name__的值：", __name__)
         print("test004被执行")
 
+
 if __name__ == '__main__':
     print("__name__的值：", __name__)
-
 
 """
     __name__: 为python中内置变量

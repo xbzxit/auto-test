@@ -34,4 +34,3 @@ print("转之前：", type(data))
 # 转换
 d3 = json.loads(data)
 print("转之后：", type(d3))
-

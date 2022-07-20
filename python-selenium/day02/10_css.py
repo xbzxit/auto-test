@@ -11,9 +11,10 @@
         获取文本的方法 元素.text
 """
 
+from time import sleep
+
 # 导包
 from selenium import webdriver
-from time import sleep
 
 # 获取 浏览器驱动对象
 driver = webdriver.Firefox()

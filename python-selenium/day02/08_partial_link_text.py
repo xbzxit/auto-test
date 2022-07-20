@@ -10,10 +10,10 @@
             2. partial_link_text定位元素的内容可以模糊部分值，但是必须能代表唯一性
 """
 
-# 导包
-from selenium import webdriver
 from time import sleep
 
+# 导包
+from selenium import webdriver
 
 # 获取 浏览器驱动对象
 driver = webdriver.Firefox()
@@ -23,15 +23,15 @@ url = "file:///d:/workspace_python/python-selenium/html/注册A.html"
 driver.get(url)
 
 # 使用partial_link_text定位 使用模糊 唯一代表关键词
-#driver.find_element_by_partial_link_text("访问").click()
+# driver.find_element_by_partial_link_text("访问").click()
 
 driver.find_element_by_partial_link_text("问 新").click()
 
 # 没有使用唯一代表词  默认操作符合条件的第一个元素
-#driver.find_element_by_partial_link_text("新浪").click()
+# driver.find_element_by_partial_link_text("新浪").click()
 
 # 使用全部匹配
-#driver.find_element_by_partial_link_text("访问 新浪 网站").click()
+# driver.find_element_by_partial_link_text("访问 新浪 网站").click()
 
 # 暂停 3秒
 sleep(3)

@@ -7,8 +7,9 @@
         3. driver.quit() # 退出方法
 """
 
-from selenium import webdriver
 from time import sleep
+
+from selenium import webdriver
 
 driver = webdriver.Firefox()
 

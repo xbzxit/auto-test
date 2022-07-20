@@ -14,6 +14,3 @@ logging.info("this is a info...")
 logging.warning("this is a warning...")
 logging.error("this is a error...")
 logging.critical("this is a critical...")
-
-
-

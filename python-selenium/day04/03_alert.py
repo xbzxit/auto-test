@@ -1,6 +1,8 @@
 # 导包
-from selenium import webdriver
 from time import sleep
+
+from selenium import webdriver
+
 # 获取浏览器驱动对象
 driver = webdriver.Firefox()
 # 最大化浏览器
@@ -20,7 +22,6 @@ driver.get(url)
 driver.find_element_by_css_selector("#alerta").click()
 # 定位 用户名 输入admin
 driver.find_element_by_css_selector("#userA").send_keys("admin")
-
 
 # 暂停 2
 sleep(2)

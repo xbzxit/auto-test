@@ -1,9 +1,11 @@
 import unittest
+
 """
     目标：unittest常用断言
         1. assertTrue : 如果结果为True通过，否则失败
         
 """
+
 
 class Test02(unittest.TestCase):
     def test001(self):

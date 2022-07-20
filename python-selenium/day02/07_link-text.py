@@ -10,8 +10,9 @@
             2. link_text定位元素的内容必须为全部匹配
 """
 
-from selenium import webdriver
 from time import sleep
+
+from selenium import webdriver
 
 driver = webdriver.Firefox()
 
@@ -25,4 +26,3 @@ driver.find_element_by_link_text("访问 新浪 网站").click()
 
 sleep(13)
 driver.quit()
-

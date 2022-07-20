@@ -1,6 +1,8 @@
 # 导包
-from selenium import webdriver
 from time import sleep
+
+from selenium import webdriver
+
 # 获取浏览器驱动对象
 driver = webdriver.Firefox()
 # 最大化浏览器

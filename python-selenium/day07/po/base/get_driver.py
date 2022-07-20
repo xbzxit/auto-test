@@ -1,9 +1,9 @@
 from selenium import webdriver
+
 from day07.po import page
 
 
 class GetDriver:
-
     # 设置类属性
     driver = None
 

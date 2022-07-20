@@ -1,5 +1,6 @@
-from selenium import webdriver
 from time import sleep
+
+from selenium import webdriver
 
 driver = webdriver.Firefox()
 

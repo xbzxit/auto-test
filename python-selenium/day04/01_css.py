@@ -1,6 +1,8 @@
 # 导包
-from selenium import webdriver
 from time import sleep
+
+from selenium import webdriver
+
 # 获取浏览器驱动对象
 driver = webdriver.Firefox()
 # 最大化浏览器
@@ -10,7 +12,6 @@ driver.implicitly_wait(30)
 # 打开url
 url = "file:///d:/workspace_python/python-selenium/html/注册A.html"
 driver.get(url)
-
 
 """
     目标： 默认北京A

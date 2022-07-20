@@ -1,8 +1,11 @@
 import unittest
+
 from parameterized import parameterized
 
+
 def add(x, y):
-    return x+y
+    return x + y
+
 
 """
     问题：

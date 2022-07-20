@@ -1,6 +1,8 @@
 # 导包
-from selenium import webdriver
 from time import sleep
+
+from selenium import webdriver
+
 # 获取浏览器驱动对象
 driver = webdriver.Firefox()
 # 最大化浏览器
@@ -10,7 +12,6 @@ driver.maximize_window()
 # 打开url
 url = "file:///d:/workspace_python/python-selenium/html/注册实例.html"
 driver.get(url)
-
 
 """
     目标： 切换窗口
@@ -47,7 +48,6 @@ for h in handles:
         driver.find_element_by_css_selector(".telA").send_keys("18611112222")
         # 邮件
         driver.find_element_by_css_selector("#emailA").send_keys("123@qq.com")
-
 
 # 暂停 2
 sleep(2)

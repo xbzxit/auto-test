@@ -1,8 +1,10 @@
 # 导包
 import unittest
+
 from parameterized import parameterized
 
-from v3.page.page_login import PageLogin
+from day06_02.v3.page.page_login import PageLogin
+
 
 # 新建测试类
 class TestLogin(unittest.TestCase):
@@ -18,7 +20,7 @@ class TestLogin(unittest.TestCase):
         self.login.driver.quit()
 
     # 新建测试方法
-    @parameterized.expand([("13822223333","123456","8888","账号不存在!"), ("13800001111","123123","8888","密码错误!")])
+    @parameterized.expand([("13822223333", "123456", "8888", "账号不存在!"), ("13800001111", "123123", "8888", "密码错误!")])
     def test_login(self, username, pwd, code, expect):
         # 调用测试登录方法
         self.login.page_login(username, pwd, code)

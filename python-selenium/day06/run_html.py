@@ -5,10 +5,9 @@
         2. 导包 from HTMLTestRunner import HTMLTestRunner
         3. 获取报告存放文件流，并实例化HTMLTestRunner类，执行run方法
 """
+import time
 # 导包
 import unittest
-
-import time
 
 from tools.HTMLTestRunner import HTMLTestRunner
 

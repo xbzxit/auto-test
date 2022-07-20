@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
-from day07.po.base.base import Base
 from day07.po import page
+from day07.po.base.base import Base
 
 
 class PageCalc(Base):

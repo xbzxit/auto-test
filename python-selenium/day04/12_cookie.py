@@ -1,6 +1,8 @@
 # 导包
-from selenium import webdriver
 from time import sleep
+
+from selenium import webdriver
+
 # 获取浏览器驱动对象
 driver = webdriver.Firefox()
 # 最大化浏览器
@@ -11,7 +13,8 @@ driver.implicitly_wait(30)
 # 设置cookie
 url = "http://www.baidu.com"
 driver.get(url)
-driver.add_cookie({"name": "BDUSS", "value":"05VkJaelAtblhuV2hIQncxS0p2N1l4MVNrdmctZGxWREUwNWdYTjRwV1N3Y1pjRVFBQUFBJCQAAAAAAAAAAAEAAAD82ggPMTUwNjkxNTU1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJI0n1ySNJ9ca0"})
+driver.add_cookie({"name": "BDUSS",
+                   "value": "05VkJaelAtblhuV2hIQncxS0p2N1l4MVNrdmctZGxWREUwNWdYTjRwV1N3Y1pjRVFBQUFBJCQAAAAAAAAAAAEAAAD82ggPMTUwNjkxNTU1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJI0n1ySNJ9ca0"})
 
 # 获取所有的cookies信息
 # cookies = driver.get_cookies()

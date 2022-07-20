@@ -3,7 +3,7 @@
         1. logger
 """
 # 注意以后导logging包，不在使用此方式
-#import logging
+# import logging
 
 # 导包时 导入 import logging.handlers 推荐：原因 logging是包名，导入包名时会自动执行包下面的__init__文件，所以这样导入，相当于导入 logging
 # handlers为模块名称
@@ -13,7 +13,6 @@ import logging.handlers
 # logger = logging.getLogger()
 
 # 修改名称
-from time import sleep
 
 logger = logging.getLogger("admin")
 
@@ -38,7 +37,6 @@ fm = logging.Formatter(fmt)
 # 将格式器 添加到处理器中
 sh.setFormatter(fm)
 th.setFormatter(fm)
-
 
 # 将 控制台处理器添加到 logger
 logger.addHandler(sh)
