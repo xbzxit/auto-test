@@ -1,0 +1,2 @@
+2022-07-19 21:16:37,507 INFO [root] [05_logger.py (<module>:39] - info信息被执行
+2022-07-19 21:16:37,507 ERROR [root] [05_logger.py (<module>:40] - error信息被执行
