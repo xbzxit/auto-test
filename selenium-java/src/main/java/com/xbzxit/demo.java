@@ -15,11 +15,10 @@ public class demo {
 
     public static void main(String[] args) {
         WebDriver driver;
-
-//        System.setProperty("webdriver.firefox.bin","E:\\Program Files\\Mozilla Firefox\\firefox.exe");
+        //System.setProperty("webdriver.firefox.bin","E:\\Program Files\\Mozilla Firefox\\firefox.exe");
         System.setProperty("webdriver.chrome.bin","\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"");
 
-//        driver = new FirefoxDriver();
+        //driver = new FirefoxDriver();
         driver = new ChromeDriver();
 
         driver.get("http://www.baidu.com");
