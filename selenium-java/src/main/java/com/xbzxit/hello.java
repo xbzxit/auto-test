@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  * @company www.xbzxit.com
  */
 
-public class demo {
+public class hello {
 
     public static void main(String[] args) {
         WebDriver driver;
