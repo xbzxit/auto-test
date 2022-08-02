@@ -12,7 +12,7 @@ from selenium import webdriver
 driver = webdriver.Firefox()
 
 # 打开 注册A.html
-url = r"file:///d:/workspace_python/python-selenium/html/注册A.html"
+url = "file:///d:/workspace_python/python-selenium/html/注册A.html"
 driver.get(url)
 
 # 获取所有的input元素

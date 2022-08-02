@@ -28,6 +28,7 @@ class Test01(unittest.TestCase):
         # 文件名
         print("__name__内置变量获取当前运行的模块名称：", __name__)
 
+    #必须是test开头，否则都不识别
     def eest_add03(self):
         result = add(1, 2)
         print("结果为：", result)

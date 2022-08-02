@@ -48,6 +48,7 @@ class TestTphopLogin(unittest.TestCase):
 
         # 点击登录
         driver.find_element_by_class_name(".btnSubmit").click()
+
         # 获取登录后提示信息
         result = driver.find_element_by_class_name(".layui-layer-move").text
         print("result：", result)

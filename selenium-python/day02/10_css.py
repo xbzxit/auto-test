@@ -40,3 +40,6 @@ driver.find_element_by_css_selector("p>input[placeholder='电子邮箱A']").send
 sleep(3)
 # 退出浏览器驱动
 driver.quit()
+
+
+##
