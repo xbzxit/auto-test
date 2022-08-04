@@ -3,7 +3,7 @@ from selenium import webdriver
 from time import sleep
 
 # 获取浏览器驱动对象
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 # 将浏览器 最大化
 # driver.maximize_window()
 # 打开url

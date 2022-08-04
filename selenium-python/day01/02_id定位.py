@@ -5,7 +5,7 @@ from selenium import webdriver
 
 # 获取 浏览器对象
 # 如果是Firefox 需要主要驱动与浏览器版本的问题， 谷歌浏览器下没有问题
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 
 # 打开url
 # 注意：\反斜杠在python是转义字符  r:修饰的字符串，如果字符串中有转义字符，不进行转义使用

@@ -4,7 +4,7 @@ from time import sleep
 from selenium import webdriver
 
 # 获取浏览器对象
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 # 打开 url
 url = "file:///d:/workspace_test/selenium-python/html/注册A.html"
 driver.get(url)

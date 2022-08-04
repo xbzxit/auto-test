@@ -12,7 +12,7 @@ class TestLogin(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         # 获取driver对象
-        cls.driver = webdriver.Chrome()
+        cls.driver = webdriver.Firefox()
         # 最大化浏览器
         cls.driver.maximize_window()
         # 隐式等待

@@ -12,7 +12,7 @@ from selenium import webdriver
 class PageLogin:
     def __init__(self):
         # 获取driver对象
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
         # 最大化浏览器
         self.driver.maximize_window()
         # 隐式等待
