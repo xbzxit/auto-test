@@ -12,7 +12,7 @@ driver.get(url)
 
 # 获取用户名文本框大小
 size = driver.find_element_by_css_selector("#user").size
-print("用户名大小为：", size)
+print("用户名表单框尺寸为：", size)
 # 获取页面上第一个超文本连接内容
 text = driver.find_element_by_css_selector("a").text
 print("页面中第一个a标签为：", text)
