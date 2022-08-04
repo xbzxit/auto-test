@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 # 将浏览器 最大化
 # driver.maximize_window()
 # 打开url
-url = "file:///d:/workspace_python/python-selenium/html/注册实例.html"
+url = "file:///d:/workspace_test/selenium-python/html/注册实例.html"
 driver.get(url)
 
 # 获取用户名文本框大小

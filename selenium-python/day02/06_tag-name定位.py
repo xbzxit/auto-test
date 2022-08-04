@@ -13,7 +13,7 @@ from selenium import webdriver
 
 driver = webdriver.Firefox()
 
-url = "file:///d:/workspace_python/python-selenium/html/注册A.html"
+url = "file:///d:/workspace_test/selenium-python/html/注册A.html"
 driver.get(url)
 
 driver.find_element_by_tag_name("input").send_keys("admin1234")

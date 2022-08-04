@@ -18,7 +18,7 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Firefox()
 
 # 打开 注册A.html
-url = r"file:///d:/workspace_python/python-selenium/html/注册A.html"
+url = r"file:///d:/workspace_test/selenium-python/html/注册A.html"
 driver.get(url)
 
 # 使用find_element()定位用户名

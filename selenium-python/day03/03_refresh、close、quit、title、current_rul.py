@@ -8,7 +8,7 @@ driver = webdriver.Firefox()
 # 将浏览器 最大化
 # driver.maximize_window()
 # 打开url
-url = "file:///d:/workspace_python/python-selenium/html/注册实例.html"
+url = "file:///d:/workspace_test/selenium-python/html/注册实例.html"
 driver.get(url)
 
 # 用户名输入 admin  目的：刷新完成--清空

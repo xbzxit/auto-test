@@ -10,7 +10,7 @@ driver.maximize_window()
 # 隐式等待
 driver.implicitly_wait(3)
 # 打开url
-url = "file:///d:/workspace_python/python-selenium/html/注册实例.html"
+url = "file:///d:/workspace_test/selenium-python/html/注册实例.html"
 driver.get(url)
 
 """

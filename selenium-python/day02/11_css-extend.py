@@ -20,7 +20,7 @@ from selenium import webdriver
 driver = webdriver.Firefox()
 
 # 打开 注册A.html
-url = r"file:///d:/workspace_python/python-selenium/html/注册A.html"
+url = r"file:///d:/workspace_test/selenium-python/html/注册A.html"
 driver.get(url)
 
 # 1. 使用css id选择器 定位用户名 输入admin 以指定字母开头 语法：[属性^='开头的字母']

@@ -6,7 +6,7 @@ from time import sleep
 driver = webdriver.Chrome()
 
 # 打开url
-url = "file:///d:/workspace_python/python-selenium/html/注册A.html"
+url = "file:///d:/workspace_test/selenium-python/html/注册A.html"
 driver.get(url)
 # 输入 admin
 driver.find_element_by_css_selector("#userA").send_keys("admin")

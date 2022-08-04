@@ -5,7 +5,7 @@ from time import sleep
 # 获取浏览器驱动对象
 driver = webdriver.Firefox()
 # 打开url
-url = "file:///d:/workspace_python/python-selenium/html/注册A.html"
+url = "file:///d:/workspace_test/selenium-python/html/注册A.html"
 driver.get(url)
 
 # 将浏览器 最大化

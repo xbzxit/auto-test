@@ -19,7 +19,7 @@ from selenium import webdriver
 driver = webdriver.Firefox()
 
 # 打开 注册A.html
-url = "file:///d:/workspace_python/python-selenium/html/注册A.html"
+url = "file:///d:/workspace_test/selenium-python/html/注册A.html"
 driver.get(url)
 
 # 使用partial_link_text定位 使用模糊 唯一代表关键词

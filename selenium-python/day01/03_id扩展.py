@@ -4,9 +4,9 @@ from time import sleep
 from selenium import webdriver
 
 # 获取浏览器对象
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 # 打开 url
-url = "file:///d:/workspace_python/python-selenium/html/注册A.html"
+url = "file:///d:/workspace_test/selenium-python/html/注册A.html"
 driver.get(url)
 # 查找元素 用户名 并 输入admin
 driver.find_element_by_id("userA").send_keys("admin")
