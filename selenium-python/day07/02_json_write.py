@@ -15,7 +15,7 @@ import json
 
 # 定义 写的内容
 # data = {"name": "tom", "age": 18}
-data = {"name": "李四", "age": 18}
+data = {"name": "32", "age": 1318}
 # 获取文件流 并 写入数据
 """
     ensure_ascii：设置编码格式-解决中文问题；

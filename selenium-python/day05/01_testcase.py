@@ -35,8 +35,8 @@ class Test01(unittest.TestCase):
 
 
 # 可以这么使用
-# unittest.main("test01_testcase")
+# unittest.main("01_testcase")
 
 if __name__ == '__main__':
     test = Test01()
-    test.test_add()
+#     test.test_add()

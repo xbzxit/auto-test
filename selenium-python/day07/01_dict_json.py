@@ -13,12 +13,12 @@ import json
 
 """将字典转换为json字符串"""
 # 定义 字典
-# data = {"name":"张三", "age":18}
+data = {"name":"张三", "age":18}
 # 调用dumps进行转换json字符串
-# print("转换之前的数据类型：", type(data))
-# d2 = json.dumps(data)
-# print("转换之后的数据类型：", type(d2))
-# print(d2)
+print("转换之前的数据类型：", type(data))
+d2 = json.dumps(data)
+print("转换之后的数据类型：", type(d2))
+print(d2)
 
 """
     目标：将字符串转为json

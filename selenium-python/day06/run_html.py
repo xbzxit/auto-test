@@ -18,5 +18,5 @@ report_dir = "./report/{}.html".format(time.strftime("%Y_%m_%d %H_%M_%S"))
 # 获取报告文件流 并执行
 with open(report_dir, "wb") as f:
     HTMLTestRunner(stream=f,
-                   title="BTOPS自动化测试报告",
+                   title="自动化测试报告",
                    description="操作系统 win10").run(suite)

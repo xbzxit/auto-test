@@ -27,7 +27,7 @@ current_rul = driver.current_url
 print("当前页面url地址为：", current_rul)
 
 # 点击 注册A网页 打开新窗口
-driver.find_element_by_partial_link_text("注册A网页").click()
+# driver.find_element_by_partial_link_text("注册A网页").click()
 
 # 暂停 3秒
 sleep(3)
@@ -37,4 +37,4 @@ driver.close()
 # 暂停 2
 sleep(2)
 # 关闭驱动对象
-driver.quit()
+# driver.quit()

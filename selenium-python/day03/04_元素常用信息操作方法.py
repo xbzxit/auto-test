@@ -39,4 +39,4 @@ print("旅游是否被选中：", selected)
 # 暂停 2
 sleep(2)
 # 关闭驱动对象
-driver.quit()
+# driver.quit()

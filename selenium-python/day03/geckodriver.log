@@ -436,3 +436,98 @@ Unable to read VR Path Registry from C:\Users\hfzj1\AppData\Local\openvr\openvrp
 1659583606561	Marionette	INFO	Listening on port 64137
 1659583607310	Marionette	WARN	TLS certificate errors will be ignored for this session
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1659660544372	geckodriver	INFO	geckodriver 0.20.1
+1659660544383	geckodriver	INFO	Listening on 127.0.0.1:59266
+1659660546401	mozrunner::runner	INFO	Running command: "e:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hfzj1\\AppData\\Local\\Temp\\rust_mozprofile.xB26dWDSXzLp"
+Unable to read VR Path Registry from C:\Users\hfzj1\AppData\Local\openvr\openvrpaths.vrpath
+1659660546961	Marionette	INFO	Enabled via --marionette
+1659660547951	Marionette	INFO	Listening on port 59272
+1659660548453	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://d3.sina.com.cn/litong/zhitou/sinaads/release/sinaads.js, line 7: TypeError: a is null
+JavaScript warning: https://n.sinaimg.cn/index/js/shms2.js?v=20190927, line 289: unreachable code after return statement
+JavaScript error: https://js.bd.dhsz.cn/impress?p=PDPS000000046021&u=1&pf=baidu&l=0&a=1&t=1659660556077&bid=u6673951, line 1: SyntaxError: missing ; before statement
+JavaScript error: https://js.bd.dhsz.cn/impress?p=PDPS000000058043&u=1&pf=baidu&l=0&a=1&t=1659660556073&bid=u6673947, line 1: SyntaxError: missing ; before statement
+JavaScript error: https://js.bd.dhsz.cn/impress?p=PDPS000000058040&u=1&pf=baidu&l=0&a=1&t=1659660556157&bid=u6673944, line 1: SyntaxError: missing ; before statement
+JavaScript error: https://js.bd.dhsz.cn/impress?p=PDPS000000057532&u=1&pf=baidu&l=0&a=1&t=1659660556169&bid=u6673955, line 1: SyntaxError: missing ; before statement
+JavaScript warning: https://pos.baidu.com/s?wid=240&hei=180&di=u6711436&s1=2157558102&s2=2999398255&ltu=https%3A%2F%2Fwww.sina.com.cn%2F&dc=3&ti=%E6%96%B0%E6%B5%AA%E9%A6%96%E9%A1%B5&ps=4826x451&drs=1&pcs=1903x977&pss=1903x7111&cfv=0&cpl=0&chi=2&cce=true&cec=UTF-8&tlm=1659660556&psr=1920x1080&par=1920x1049&pis=240x350&ccd=24&cja=false&cmi=0&col=zh-CN&cdo=-1&tcn=1659660556&dtm=HTML_POST&tpr=1659660556208&ari=2&ant=0&exps=110269,110257,110009,111000&prot=2&dis=1&dai=5&dri=0&ver=0727&liu=https%3A%2F%2Fwww.sina.com.cn%2F&ecd=1&psi=dc4e1aaa5e58fe70&ft=1, line 139: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?wid=240&hei=180&di=u6711436&s1=2157558102&s2=2999398255&ltu=https%3A%2F%2Fwww.sina.com.cn%2F&dc=3&ti=%E6%96%B0%E6%B5%AA%E9%A6%96%E9%A1%B5&ps=4826x451&drs=1&pcs=1903x977&pss=1903x7111&cfv=0&cpl=0&chi=2&cce=true&cec=UTF-8&tlm=1659660556&psr=1920x1080&par=1920x1049&pis=240x350&ccd=24&cja=false&cmi=0&col=zh-CN&cdo=-1&tcn=1659660556&dtm=HTML_POST&tpr=1659660556208&ari=2&ant=0&exps=110269,110257,110009,111000&prot=2&dis=1&dai=5&dri=0&ver=0727&liu=https%3A%2F%2Fwww.sina.com.cn%2F&ecd=1&psi=dc4e1aaa5e58fe70&ft=1, line 139: unreachable code after return statement
+JavaScript error: https://js.bd.dhsz.cn/impress?p=FB004DC85F3E3F12&u=1&pf=baidu&l=0&a=1&t=1659660556195&bid=u6673974, line 1: SyntaxError: missing ; before statement
+JavaScript error: https://js.bd.dhsz.cn/impress?p=PDPS000000058046&u=1&pf=baidu&l=0&a=1&t=1659660556172&bid=u6673953, line 1: SyntaxError: missing ; before statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1659660585227	geckodriver	INFO	geckodriver 0.20.1
+1659660585237	geckodriver	INFO	Listening on 127.0.0.1:59565
+1659660587273	mozrunner::runner	INFO	Running command: "e:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hfzj1\\AppData\\Local\\Temp\\rust_mozprofile.GziJfW8ADvli"
+Unable to read VR Path Registry from C:\Users\hfzj1\AppData\Local\openvr\openvrpaths.vrpath
+1659660587677	Marionette	INFO	Enabled via --marionette
+1659660588512	Marionette	INFO	Listening on port 59572
+1659660589311	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1659660625751	geckodriver	INFO	geckodriver 0.20.1
+1659660625761	geckodriver	INFO	Listening on 127.0.0.1:59740
+1659660627786	mozrunner::runner	INFO	Running command: "e:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hfzj1\\AppData\\Local\\Temp\\rust_mozprofile.bQ2vHuq0ylxj"
+Unable to read VR Path Registry from C:\Users\hfzj1\AppData\Local\openvr\openvrpaths.vrpath
+1659660628197	Marionette	INFO	Enabled via --marionette
+1659660629029	Marionette	INFO	Listening on port 59747
+1659660629816	Marionette	WARN	TLS certificate errors will be ignored for this session
+1659660650667	geckodriver	INFO	geckodriver 0.20.1
+1659660650677	geckodriver	INFO	Listening on 127.0.0.1:59910
+1659660652704	mozrunner::runner	INFO	Running command: "e:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hfzj1\\AppData\\Local\\Temp\\rust_mozprofile.ewfkJp2FR9Wj"
+Unable to read VR Path Registry from C:\Users\hfzj1\AppData\Local\openvr\openvrpaths.vrpath
+1659660653122	Marionette	INFO	Enabled via --marionette
+1659660653959	Marionette	INFO	Listening on port 59916
+1659660654755	Marionette	WARN	TLS certificate errors will be ignored for this session
+1659660668326	geckodriver	INFO	geckodriver 0.20.1
+1659660668337	geckodriver	INFO	Listening on 127.0.0.1:60078
+1659660670364	mozrunner::runner	INFO	Running command: "e:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hfzj1\\AppData\\Local\\Temp\\rust_mozprofile.YIG9NXZ7bEoD"
+Unable to read VR Path Registry from C:\Users\hfzj1\AppData\Local\openvr\openvrpaths.vrpath
+1659660670769	Marionette	INFO	Enabled via --marionette
+1659660671638	Marionette	INFO	Listening on port 60085
+1659660672405	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1659661076437	geckodriver	INFO	geckodriver 0.20.1
+1659661076453	geckodriver	INFO	Listening on 127.0.0.1:60501
+1659661078458	mozrunner::runner	INFO	Running command: "e:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hfzj1\\AppData\\Local\\Temp\\rust_mozprofile.JFTafcn2cxg7"
+Unable to read VR Path Registry from C:\Users\hfzj1\AppData\Local\openvr\openvrpaths.vrpath
+1659661078861	Marionette	INFO	Enabled via --marionette
+1659661079699	Marionette	INFO	Listening on port 60507
+1659661080503	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1659661099941	geckodriver	INFO	geckodriver 0.20.1
+1659661099957	geckodriver	INFO	Listening on 127.0.0.1:60674
+1659661101948	mozrunner::runner	INFO	Running command: "e:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hfzj1\\AppData\\Local\\Temp\\rust_mozprofile.m2pQXdPy5IcQ"
+Unable to read VR Path Registry from C:\Users\hfzj1\AppData\Local\openvr\openvrpaths.vrpath
+1659661102352	Marionette	INFO	Enabled via --marionette
+1659661103174	Marionette	INFO	Listening on port 60681
+1659661103977	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1659661123071	geckodriver	INFO	geckodriver 0.20.1
+1659661123087	geckodriver	INFO	Listening on 127.0.0.1:60847
+1659661125090	mozrunner::runner	INFO	Running command: "e:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hfzj1\\AppData\\Local\\Temp\\rust_mozprofile.OnXI5idIMNul"
+Unable to read VR Path Registry from C:\Users\hfzj1\AppData\Local\openvr\openvrpaths.vrpath
+1659661125498	Marionette	INFO	Enabled via --marionette
+1659661126336	Marionette	INFO	Listening on port 60856
+1659661127129	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1659661148296	geckodriver	INFO	geckodriver 0.20.1
+1659661148312	geckodriver	INFO	Listening on 127.0.0.1:61031
+1659661150347	mozrunner::runner	INFO	Running command: "e:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hfzj1\\AppData\\Local\\Temp\\rust_mozprofile.SzuACwwegwxb"
+Unable to read VR Path Registry from C:\Users\hfzj1\AppData\Local\openvr\openvrpaths.vrpath
+1659661150754	Marionette	INFO	Enabled via --marionette
+1659661151646	Marionette	INFO	Listening on port 61038
+1659661152393	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1659661786431	geckodriver	INFO	geckodriver 0.20.1
+1659661786446	geckodriver	INFO	Listening on 127.0.0.1:61728
+1659661788475	mozrunner::runner	INFO	Running command: "e:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hfzj1\\AppData\\Local\\Temp\\rust_mozprofile.vKadRwMSv8OX"
+Unable to read VR Path Registry from C:\Users\hfzj1\AppData\Local\openvr\openvrpaths.vrpath
+1659661788903	Marionette	INFO	Enabled via --marionette
+1659661789748	Marionette	INFO	Listening on port 61735
+1659661790520	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1659661800011	geckodriver	INFO	geckodriver 0.20.1
+1659661800027	geckodriver	INFO	Listening on 127.0.0.1:61897
+1659661802039	mozrunner::runner	INFO	Running command: "e:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hfzj1\\AppData\\Local\\Temp\\rust_mozprofile.9jYJ8LDKjHPX"
+Unable to read VR Path Registry from C:\Users\hfzj1\AppData\Local\openvr\openvrpaths.vrpath
+1659661802467	Marionette	INFO	Enabled via --marionette
+1659661803308	Marionette	INFO	Listening on port 61904
+1659661804083	Marionette	WARN	TLS certificate errors will be ignored for this session
